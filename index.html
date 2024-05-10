@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do's</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>To do's</h1>
+      <div id="HomeScreen">
+        <img src="img/light-todo-svgrepo-com.svg" width="100px" />
+        <h2>Add your first to do</h2>
+        <p>What do you want to get done today?</p>
+      </div>
+      <div id="ToDoItems"></div>
+      <input type="text" id="ToDoInput" placeholder="E.g. build a web app" />
+      <input type="submit" id="Submit" onclick="add()" />
+    </main>
+    <script src="js/todo.js"></script>
+  </body>
+</html>
